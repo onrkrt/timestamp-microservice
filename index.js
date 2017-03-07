@@ -29,6 +29,7 @@ app.get("/:date",(req,res)=>{
 app.get("/",(req,res)=>{
 	res.render("index");
 })
-app.listen(3000,()=>{
-	console.log("on air")
+var port = Number(process.env.PORT || 5000);
+app.listen(port,()=>{
+	console.log("listening"+port);
 })
