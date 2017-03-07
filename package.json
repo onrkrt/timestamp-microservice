@@ -2,6 +2,7 @@
   "name": "timestampmicroservice",
   "version": "1.0.0",
   "description": "",
+  "repository":" https://git.heroku.com/fast-springs-82852.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
